@@ -26,18 +26,24 @@ cd code-and-number-converter
 
 ## Examples
 1. **Convert Code to Number**:
-   - Input: [B1] Y <- Y
-            [ ] Y <- Y
-            [ ] Y <- Y+1
+   - Input:
+   ```bash
+    [B1] Y <- Y
+    [ ] Y <- Y
+    [ ] Y <- Y+1
+   ```
    - Output: 199
 
 2. **Convert Number to Code**:
    - Input: 175
-   - Output: [ ] X1 <- X1
-             [ ] Y <- Y
-             [ ] Y <- Y
-             [ ] Y <- Y
-             [A1] Y <- Y
+   - Output:
+      ```bash
+      [ ] X1 <- X1
+      [ ] Y <- Y
+      [ ] Y <- Y
+      [ ] Y <- Y
+      [A1] Y <- Y
+      ```
 
 ## Contributing
 We welcome contributions! If you would like to contribute to this project, please follow these steps:
